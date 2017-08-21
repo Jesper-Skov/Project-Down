@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="Images/logomobile.png"/>
+<title>Down</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet/down.css">
+<meta name="author" content="Jesper Skov">
+<meta name="Keywords" content="Downs syndrom, Downs, Syndrom, responsiv, brugervenlig">
+<meta name="description" content="Dette websted er en projekt hvor der prøves at lave en responsiv side til down.dk">
+</head>
+
+<body>
+<div class="container">
+  <nav class="nav">
+    <ul class="menu">
+      <img src="images/logo.png" class="leftlistimgpc">
+      <img src="images/logomobile.png" class="leftlistimgmobil">
+      <ul class="menucontentmobile">Forside</ul>
+      <ul class="menucontent"><a class="navlink">Nye forældre</a></ul>
+      <ul class="menucontent"><a class="navlink">Om Downs Syndrom</a></ul>
+      <ul class="menucontent"><a class="navlink">Bliv Medlem</a></ul>
+      <ul class="menucontent"><a class="navlink">Kontakt</a></ul>
+      <img src="Images/Search.png" class="searchmobile">
+      <img src="Images/MobileMenu.png" class="mobilemenu" onclick="openNav()">
+    </ul>
+  </nav>
+  <!-- Det er her jeg fandt om side menu til smartphone https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav -->
+  <!-- Jeg har selvfølgelig ændret på koden til at det passede til siden -->
+ <div class="mobilesidemenu">
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  	<a href="http://down.dk/">Forside</a>
+  	<a href="http://down.dk/nye-foraeldre/nyheder/">Nyheder</a>
+  	<a href="http://down.dk/nye-foraeldre/">Nye forældre</a>
+ 	<a href="http://down.dk/om-down-syndrom/">Om Downs syndrom</a>
+ 	<a href="#">Kalender</a>
+ 	<a href="http://down.dk/statistik/vvvv-2/">21.3. Int Downs syndrom dag</a>
+ 	<a href="http://down.dk/forsiden/om-landsforeningen/">Om landsforeningen</a>
+ 	<a href="http://down.dk/bliv-medlem/">Bliv medlem</a>
+ 	<a href="http://down.dk/presse/">Presse</a>
+ 	<a href="http://down.dk/kontakt/">Kontakt</a>
+  </div>
+ </div>
+	<a href="http://down.dk/nye-foraeldre/nyheder/"><div class="box">
+		<h2 class="contenttopicn">Nyheder</h2>
+		<img src="images/ALR8159.jpg" class="boximg">
+		</div></a>
+	<a href="http://down.dk/nye-foraeldre/"><div class="box">
+		<h2 class="contenttopicnf">Nye forældre</h2>
+		<img src="images/5.jpg" class="boximg">
+		</div></a>
+	<a href="http://down.dk/om-down-syndrom/"><div>
+		<h2 class="contenttopicds">Om downs syndrom</h2>
+		<img src="images/ALR7152.jpg" class="boximgtwo">
+		</div></a>
+	<a href="http://down.dk/kontakt/"><div>
+		<h2 class="contenttopick">Kontakt</h2>
+		<img src="images/ALR8055.jpg" class="boximgtwo">
+		</div></a>
+	<footer>
+		<a href="https://www.facebook.com/Landsforeningendownssyndrom/" target="_blank"><img src="images/facebook-logo-png-38360.png" class="footerimg"></a>
+		<p>E-mail: downssyndrom@downssyndrom.dk</p>
+		<p>Handelsbetingelser</p>
+		<p>Kontakt</p>
+	</footer>
+</div>
+<script src="javascript/down.js"></script> 
+<script src="javascript/jquery-3.2.0.min.js"></script>
+</body>
+</html>

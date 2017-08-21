@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (min-width: 769px){
+	body{
+		background-color: #CFCFCF;
+	}
+	.container{
+		margin: auto;
+		width: 70%;
+		background-color: white;
+	}
+	a {
+	text-decoration: none;
+}
+
+
+.nav {
+	text-align: center;
+	margin: auto;
+    background-color: white;
+	margin-top: -0.7%;
+	margin-bottom: 0.8%;
+	padding-bottom: 1.2%
+}
+
+
+.menu {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    }
+
+
+.menucontent {
+	margin-left: 10px;
+    margin: 0px -7px 1 0;
+    display:inline-block;
+	font-family: arial;
+    }
+
+.navlink {
+    padding:0 7px;
+    color: #0b9bb5;
+    font-size:113%;
+    line-height: 60px;
+    text-decoration:none;
+}
+	.leftlistimgpc{
+		float:left;
+		margin-top: 0.1%;
+		width: 20%;
+	}
+	.leftlistimgmobil{
+		display: none;
+	}
+	.menucontentmobile{
+		display: none;
+	}
+	.mobilemenu{
+		display: none;
+	}
+	.mobilesidemenu{
+		display: none;
+	}
+	.searchmobile{
+		display: none;
+	}
+}
+@media only screen and (min-width: 321px) and (max-width: 768px){
+	.container{
+		width: 100%;
+	}
+	body{
+		background-color: white;
+	}
+	a{
+		text-decoration: none;
+		color: #0b9bb5;
+	}
+	.leftlistimgmobil{
+		display: none;
+	}
+	.leftlistimgpc{
+		float:left;
+		margin-top: 0.1%;
+		width: 20%;
+	}
+	.menucontentmobile{
+		display: none;
+	}
+	.mobilemenu{
+		display: none;
+	}
+	.mobilesidemenu{
+		display: none;
+	}
+	.searchmobile{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.container{
+		width: 100%;
+	}
+	body{
+		background-color: white;
+	}
+	a{
+		text-decoration: none;
+		color: #0b9bb5;
+	}
+	.leftlistimgpc{
+		display: none;
+	}
+	.leftlistimgmobil{
+		margin-top: -3%;
+		float:left;
+		margin-left: -13%;
+		margin-right: -100%;
+		width: 6vw;
+	}
+	.nav {
+		position: fixed;
+		text-align: center;
+		margin: auto;
+		background-color: #CFCFCF;
+		margin-top: -5.7%;
+		margin-bottom: 0.8%;
+		margin-left: -2.5%;
+		margin-right: -2.5%;
+		padding-bottom: 0.1%;
+		padding-top: 1%;
+	}
+	.navlink{
+		display: none;
+	}
+	.menucontentmobile{
+		/*vw is viewpoint width hvilket gør at teksten er responsiv til hvilken skerm den ses på*/
+		font-size: 10vw;
+		font-size: 8vmin;
+		font-size: 10vmax;
+		color: #0b9bb5;
+		margin-right: 32%;
+		font-family: Filson Soft black, arial;
+	}
+	.searchmobile{
+		width: 8%;
+		float: right;
+		margin-top: -10%;
+		margin-right: 23%;
+	}
+	.mobilemenu{
+		width: 12%;
+		float: right;
+		margin-top: -8.5%;
+		margin-right: 5%;
+	}
+	.box{
+		padding-top: 4%;
+		margin-left: -3%;
+		margin-right: -2.7%;
+		
+	}
+	.boximg{
+		width: 100%;
+	}
+	.boximgtwo{
+		width: 106%;
+		margin-left: -3%;
+	}
+	.contenttopicn{
+		font-family: Filson Soft black, arial;
+		font-size: 8vw;
+		padding-top: 5%;
+		margin-bottom: 2%;
+		text-align: center;
+		color: #0b9bb5;
+	}
+	.contenttopicnf{
+		font-family: Filson Soft black, arial;
+		font-size: 8vw;
+		margin-top: -5%;
+		margin-bottom: 2%;
+		text-align: center;
+		color: #0b9bb5;
+	}
+	.contenttopicds{
+		font-family: Filson Soft black, arial;
+		font-size: 8vw;
+		margin-top: -1%;
+		margin-bottom: 2%;
+		text-align: center;
+		color: #0b9bb5;
+	}
+	.contenttopick{
+		font-family: Filson Soft black, arial;
+		font-size: 8vw;
+		margin-top: -1%;
+		margin-bottom: 2%;
+		text-align: center;
+		color: #0b9bb5;
+	}
+	footer{
+		width: 100%;
+		height: 10%;
+		background-color: #cfcfcf;
+		margin-left: -3%;
+		margin-top: -1%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		padding-right: 6%;
+	}
+	.footerimg{
+		width: 20%;
+		margin-left: 42%;
+	}
+	footer p{
+		font-size: 80%;
+		text-align: center;
+		font-family: Filson Soft black, arial;
+		color: #0b9bb5;
+	}
+/*Fra dette punkt har jeg fået hjælp af w3school til at lave side menuen til smartphones, med ændinger som jeg har lavet*/
+	.sidenav {
+    height: 110%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #e3e3e3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0b9bb5;
+    display: block;
+    transition: 0.3s;
+	font-family: Filson Soft black, arial;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
